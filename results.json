@@ -1,0 +1,648 @@
+[
+  {
+    "candidate_name": "Taha Daowd",
+    "sender_email": "Taha Daowd <tahadaowd2@gmail.com>",
+    "email_subject": "",
+    "email_date": "Sat, 10 Oct 2026 12:15:46 +0300",
+    "message_id": "1a125190eea3ac1e",
+    "cv_filename": "1a125190eea3ac1e_AI_Developer_CV_and_Requirements_Matrix.pdf",
+    "summary": {
+      "meets": 15,
+      "partially_meets": 0,
+      "does_not_meet": 6
+    },
+    "candidate_qualifications": {
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Git",
+        "Github",
+        "Fastapi",
+        "Docker",
+        "Nlp"
+      ],
+      "experience": [
+        "3 years",
+        "3 Years",
+        "2 yrs"
+      ],
+      "education": [
+        "Bachelor's Degree in Computer Science or related field"
+      ],
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "certifications": []
+    },
+    "match_results": [
+      {
+        "category": "skills",
+        "requirement": "Python",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Python"
+      },
+      {
+        "category": "skills",
+        "requirement": "Machine Learning",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Machine Learning"
+      },
+      {
+        "category": "skills",
+        "requirement": "Artificial Intelligence",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Artificial Intelligence"
+      },
+      {
+        "category": "skills",
+        "requirement": "Git",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Using Git for version control, code reviews, collaborative development, and release management."
+      },
+      {
+        "category": "skills",
+        "requirement": "FastAPI",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Engineering & MLOps: FastAPI, REST APIs... Developing high-performance REST APIs using FastAPI to serve machine learning inference and LLM endpoints."
+      },
+      {
+        "category": "skills",
+        "requirement": "Docker",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Docker"
+      },
+      {
+        "category": "skills",
+        "requirement": "Ollama / Hugging Face Transformers",
+        "result": "Meets",
+        "similarity_score": 0.16,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "skills",
+        "requirement": "Vector Databases",
+        "result": "Meets",
+        "similarity_score": 0.427,
+        "rule_matched": true,
+        "evidence": "Candidate mentions 'Vector Databases' in both Technical Skills and Professional Experience: \"Implementing RAG pipelines utilizing advanced document chunking, embeddings, and vector databases for precise context retrieval.\""
+      },
+      {
+        "category": "skills",
+        "requirement": "Prompt Engineering",
+        "result": "Meets",
+        "similarity_score": 0.352,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "experience",
+        "requirement": "Minimum 2 years of professional experience in Python development or AI/ML solutions",
+        "result": "Does Not Meet",
+        "similarity_score": 0.338,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "experience",
+        "requirement": "Experience with LLM integration and retrieval-augmented generation (RAG)",
+        "result": "Does Not Meet",
+        "similarity_score": 0.06,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Computer Science",
+        "result": "Meets",
+        "similarity_score": 0.957,
+        "rule_matched": true,
+        "evidence": "Matched: Bachelor's Degree in Computer Science or related field"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Artificial Intelligence",
+        "result": "Meets",
+        "similarity_score": 0.724,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Data Science",
+        "result": "Does Not Meet",
+        "similarity_score": 0.76,
+        "rule_matched": true,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Software Engineering",
+        "result": "Meets",
+        "similarity_score": 0.772,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in related technical field",
+        "result": "Meets",
+        "similarity_score": 0.755,
+        "rule_matched": false,
+        "evidence": "Matched: Bachelor's Degree in Computer Science or related field"
+      },
+      {
+        "category": "languages",
+        "requirement": "English",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: English"
+      },
+      {
+        "category": "certifications",
+        "requirement": "AWS Certified Machine Learning",
+        "result": "Does Not Meet",
+        "similarity_score": 0.0,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "certifications",
+        "requirement": "DeepLearning.AI",
+        "result": "Meets",
+        "similarity_score": 0.0,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "certifications",
+        "requirement": "TensorFlow Developer",
+        "result": "Does Not Meet",
+        "similarity_score": 0.0,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "certifications",
+        "requirement": "Microsoft Azure AI",
+        "result": "Does Not Meet",
+        "similarity_score": 0.0,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "candidate_name": "Taha Daowd",
+    "sender_email": "Taha Daowd <tahadaowd2@gmail.com>",
+    "email_subject": "",
+    "email_date": "Sat, 10 Oct 2026 12:15:37 +0300",
+    "message_id": "1a12518e67b32b29",
+    "cv_filename": "1a12518e67b32b29_Omar_Nasser_CV___ATS_Match_Assessment.pdf",
+    "summary": {
+      "meets": 13,
+      "partially_meets": 0,
+      "does_not_meet": 8
+    },
+    "candidate_qualifications": {
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Git",
+        "Github",
+        "Fastapi",
+        "Docker",
+        "Sql",
+        "Nlp"
+      ],
+      "experience": [
+        "5 years of experience",
+        "5 years",
+        "2+ years",
+        "1 year"
+      ],
+      "education": [
+        "Bachelor's Degree in Computer Science or related field"
+      ],
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "certifications": []
+    },
+    "match_results": [
+      {
+        "category": "skills",
+        "requirement": "Python",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Python"
+      },
+      {
+        "category": "skills",
+        "requirement": "Machine Learning",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Machine Learning"
+      },
+      {
+        "category": "skills",
+        "requirement": "Artificial Intelligence",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Artificial Intelligence"
+      },
+      {
+        "category": "skills",
+        "requirement": "Git",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Technical Skills: \"Tools & VCS: Git, GitHub\". Professional Experience: \"Utilized Git for version control, participating in team pull requests, code reviews, and bug resolution.\""
+      },
+      {
+        "category": "skills",
+        "requirement": "FastAPI",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Fastapi"
+      },
+      {
+        "category": "skills",
+        "requirement": "Docker",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Docker"
+      },
+      {
+        "category": "skills",
+        "requirement": "Ollama / Hugging Face Transformers",
+        "result": "Meets",
+        "similarity_score": 0.16,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "skills",
+        "requirement": "Vector Databases",
+        "result": "Meets",
+        "similarity_score": 0.427,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "skills",
+        "requirement": "Prompt Engineering",
+        "result": "Does Not Meet",
+        "similarity_score": 0.352,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "experience",
+        "requirement": "Minimum 2 years of professional experience in Python development or AI/ML solutions",
+        "result": "Does Not Meet",
+        "similarity_score": 0.489,
+        "rule_matched": true,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "experience",
+        "requirement": "Experience with LLM integration and retrieval-augmented generation (RAG)",
+        "result": "Does Not Meet",
+        "similarity_score": 0.17,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Computer Science",
+        "result": "Meets",
+        "similarity_score": 0.957,
+        "rule_matched": true,
+        "evidence": "Matched: Bachelor's Degree in Computer Science or related field"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Artificial Intelligence",
+        "result": "Does Not Meet",
+        "similarity_score": 0.724,
+        "rule_matched": true,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Data Science",
+        "result": "Meets",
+        "similarity_score": 0.76,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Software Engineering",
+        "result": "Does Not Meet",
+        "similarity_score": 0.772,
+        "rule_matched": true,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in related technical field",
+        "result": "Meets",
+        "similarity_score": 0.755,
+        "rule_matched": false,
+        "evidence": "Bachelor's Degree in Information Systems"
+      },
+      {
+        "category": "languages",
+        "requirement": "English",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "English: Intermediate"
+      },
+      {
+        "category": "certifications",
+        "requirement": "AWS Certified Machine Learning",
+        "result": "Does Not Meet",
+        "similarity_score": 0.0,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "certifications",
+        "requirement": "DeepLearning.AI",
+        "result": "Meets",
+        "similarity_score": 0.0,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "certifications",
+        "requirement": "TensorFlow Developer",
+        "result": "Does Not Meet",
+        "similarity_score": 0.0,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "certifications",
+        "requirement": "Microsoft Azure AI",
+        "result": "Does Not Meet",
+        "similarity_score": 0.0,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+  {
+    "candidate_name": "Taha Daowd",
+    "sender_email": "Taha Daowd <tahadaowd2@gmail.com>",
+    "email_subject": "",
+    "email_date": "Sat, 10 Oct 2026 12:15:28 +0300",
+    "message_id": "1a12518c89a196bf",
+    "cv_filename": "1a12518c89a196bf_Fictional_Non-Matching_CV___Recruitment_Assessment.pdf",
+    "summary": {
+      "meets": 8,
+      "partially_meets": 0,
+      "does_not_meet": 13
+    },
+    "candidate_qualifications": {
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Git",
+        "Fastapi",
+        "Docker"
+      ],
+      "experience": [
+        "5 years",
+        "2 Yrs",
+        "0 years",
+        "5 years",
+        "5 years"
+      ],
+      "education": [
+        "Bachelor's Degree in Computer Science or related field"
+      ],
+      "languages": [
+        "English"
+      ],
+      "certifications": []
+    },
+    "match_results": [
+      {
+        "category": "skills",
+        "requirement": "Python",
+        "result": "Does Not Meet",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "skills",
+        "requirement": "Machine Learning",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Machine Learning"
+      },
+      {
+        "category": "skills",
+        "requirement": "Artificial Intelligence",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Artificial Intelligence"
+      },
+      {
+        "category": "skills",
+        "requirement": "Git",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: Git"
+      },
+      {
+        "category": "skills",
+        "requirement": "FastAPI",
+        "result": "Does Not Meet",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "skills",
+        "requirement": "Docker",
+        "result": "Does Not Meet",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "skills",
+        "requirement": "Ollama / Hugging Face Transformers",
+        "result": "Does Not Meet",
+        "similarity_score": 0.16,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "skills",
+        "requirement": "Vector Databases",
+        "result": "Does Not Meet",
+        "similarity_score": 0.427,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "skills",
+        "requirement": "Prompt Engineering",
+        "result": "Does Not Meet",
+        "similarity_score": 0.352,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "experience",
+        "requirement": "Minimum 2 years of professional experience in Python development or AI/ML solutions",
+        "result": "Does Not Meet",
+        "similarity_score": 0.338,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "experience",
+        "requirement": "Experience with LLM integration and retrieval-augmented generation (RAG)",
+        "result": "Does Not Meet",
+        "similarity_score": 0.06,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Computer Science",
+        "result": "Meets",
+        "similarity_score": 0.957,
+        "rule_matched": true,
+        "evidence": "Matched: Bachelor's Degree in Computer Science or related field"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Artificial Intelligence",
+        "result": "Meets",
+        "similarity_score": 0.724,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Data Science",
+        "result": "Meets",
+        "similarity_score": 0.76,
+        "rule_matched": false,
+        "evidence": "Matched: Bachelor's Degree in Computer Science or related field"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in Software Engineering",
+        "result": "Meets",
+        "similarity_score": 0.772,
+        "rule_matched": true,
+        "evidence": "Matched: Found in CV text"
+      },
+      {
+        "category": "education",
+        "requirement": "Bachelor's degree in related technical field",
+        "result": "Does Not Meet",
+        "similarity_score": 0.755,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "languages",
+        "requirement": "English",
+        "result": "Meets",
+        "similarity_score": 1.0,
+        "rule_matched": true,
+        "evidence": "Matched: English"
+      },
+      {
+        "category": "certifications",
+        "requirement": "AWS Certified Machine Learning",
+        "result": "Does Not Meet",
+        "similarity_score": 0.0,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "certifications",
+        "requirement": "DeepLearning.AI",
+        "result": "Does Not Meet",
+        "similarity_score": 0.0,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "certifications",
+        "requirement": "TensorFlow Developer",
+        "result": "Does Not Meet",
+        "similarity_score": 0.0,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      },
+      {
+        "category": "certifications",
+        "requirement": "Microsoft Azure AI",
+        "result": "Does Not Meet",
+        "similarity_score": 0.0,
+        "rule_matched": false,
+        "evidence": "No evidence found in CV"
+      }
+    ]
+  }
+]

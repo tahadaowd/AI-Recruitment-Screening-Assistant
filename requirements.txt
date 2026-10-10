@@ -1,0 +1,11 @@
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+pypdf
+python-docx
+python-dotenv
+sentence-transformers
+scikit-learn
+ollama
+torch
+requests

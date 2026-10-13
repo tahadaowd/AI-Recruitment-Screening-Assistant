@@ -1,0 +1,1483 @@
+[
+  {
+    "id": "1a125190",
+    "candidate_name": "Taha Daowd",
+    "sender_email": "Taha Daowd <tahadaowd2@gmail.com>",
+    "email_subject": "",
+    "email_date": "Sat, 10 Oct 2026 12:15:46 +0300",
+    "message_id": "1a125190eea3ac1e",
+    "cv_filename": "1a125190eea3ac1e_AI_Developer_CV_and_Requirements_Matrix.pdf",
+    "cv_path": "data\\cvs\\1a125190eea3ac1e_AI_Developer_CV_and_Requirements_Matrix.pdf",
+    "hr_status": "New",
+    "hr_notes": "",
+    "candidate_qualifications": {
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Git",
+        "Github",
+        "Fastapi",
+        "Docker",
+        "Nlp"
+      ],
+      "experience": [
+        "3 years",
+        "3 Years",
+        "2 yrs"
+      ],
+      "education": [
+        "Bachelor's Degree in Computer Science or related field"
+      ],
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "certifications": []
+    },
+    "evaluation": {
+      "is_qualified": false,
+      "score_percentage": 0.0,
+      "missing_must_haves": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "must_have_results": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "result": "Does Not Meet",
+          "similarity_score": 0.28,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "result": "Does Not Meet",
+          "similarity_score": 0.89,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "nice_to_have_results": [
+        {
+          "category": "skills",
+          "requirement": "FastAPI",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Docker",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Hugging Face",
+          "result": "Does Not Meet",
+          "similarity_score": 0.218,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Vector Databases",
+          "result": "Does Not Meet",
+          "similarity_score": 0.427,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Prompt Engineering",
+          "result": "Does Not Meet",
+          "similarity_score": 0.352,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "Experience with LLM integration",
+          "result": "Does Not Meet",
+          "similarity_score": 0.064,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "certifications",
+          "requirement": "Machine Learning or AI certification",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "all_results": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "result": "Does Not Meet",
+          "similarity_score": 0.28,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "result": "Does Not Meet",
+          "similarity_score": 0.89,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "FastAPI",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Docker",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Hugging Face",
+          "result": "Does Not Meet",
+          "similarity_score": 0.218,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Vector Databases",
+          "result": "Does Not Meet",
+          "similarity_score": 0.427,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Prompt Engineering",
+          "result": "Does Not Meet",
+          "similarity_score": 0.352,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "Experience with LLM integration",
+          "result": "Does Not Meet",
+          "similarity_score": 0.064,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "certifications",
+          "requirement": "Machine Learning or AI certification",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1a12518e",
+    "candidate_name": "Taha Daowd",
+    "sender_email": "Taha Daowd <tahadaowd2@gmail.com>",
+    "email_subject": "",
+    "email_date": "Sat, 10 Oct 2026 12:15:37 +0300",
+    "message_id": "1a12518e67b32b29",
+    "cv_filename": "1a12518e67b32b29_Omar_Nasser_CV___ATS_Match_Assessment.pdf",
+    "cv_path": "data\\cvs\\1a12518e67b32b29_Omar_Nasser_CV___ATS_Match_Assessment.pdf",
+    "hr_status": "New",
+    "hr_notes": "",
+    "candidate_qualifications": {
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Git",
+        "Github",
+        "Fastapi",
+        "Docker",
+        "Sql",
+        "Nlp"
+      ],
+      "experience": [
+        "5 years of experience",
+        "5 years",
+        "2+ years",
+        "1 year"
+      ],
+      "education": [
+        "Bachelor's Degree in Computer Science or related field"
+      ],
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "certifications": []
+    },
+    "evaluation": {
+      "is_qualified": false,
+      "score_percentage": 0.0,
+      "missing_must_haves": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "must_have_results": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "result": "Does Not Meet",
+          "similarity_score": 0.439,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "result": "Does Not Meet",
+          "similarity_score": 0.89,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "nice_to_have_results": [
+        {
+          "category": "skills",
+          "requirement": "FastAPI",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Docker",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Hugging Face",
+          "result": "Does Not Meet",
+          "similarity_score": 0.218,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Vector Databases",
+          "result": "Does Not Meet",
+          "similarity_score": 0.427,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Prompt Engineering",
+          "result": "Does Not Meet",
+          "similarity_score": 0.352,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "Experience with LLM integration",
+          "result": "Does Not Meet",
+          "similarity_score": 0.193,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "certifications",
+          "requirement": "Machine Learning or AI certification",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "all_results": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "result": "Does Not Meet",
+          "similarity_score": 0.439,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "result": "Does Not Meet",
+          "similarity_score": 0.89,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "FastAPI",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Docker",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Hugging Face",
+          "result": "Does Not Meet",
+          "similarity_score": 0.218,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Vector Databases",
+          "result": "Does Not Meet",
+          "similarity_score": 0.427,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Prompt Engineering",
+          "result": "Does Not Meet",
+          "similarity_score": 0.352,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "Experience with LLM integration",
+          "result": "Does Not Meet",
+          "similarity_score": 0.193,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "certifications",
+          "requirement": "Machine Learning or AI certification",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1a12518c",
+    "candidate_name": "Taha Daowd",
+    "sender_email": "Taha Daowd <tahadaowd2@gmail.com>",
+    "email_subject": "",
+    "email_date": "Sat, 10 Oct 2026 12:15:28 +0300",
+    "message_id": "1a12518c89a196bf",
+    "cv_filename": "1a12518c89a196bf_Fictional_Non-Matching_CV___Recruitment_Assessment.pdf",
+    "cv_path": "data\\cvs\\1a12518c89a196bf_Fictional_Non-Matching_CV___Recruitment_Assessment.pdf",
+    "hr_status": "New",
+    "hr_notes": "",
+    "candidate_qualifications": {
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Git",
+        "Fastapi",
+        "Docker"
+      ],
+      "experience": [
+        "5 years",
+        "2 Yrs",
+        "0 years",
+        "5 years",
+        "5 years"
+      ],
+      "education": [
+        "Bachelor's Degree in Computer Science or related field"
+      ],
+      "languages": [
+        "English"
+      ],
+      "certifications": []
+    },
+    "evaluation": {
+      "is_qualified": false,
+      "score_percentage": 0.0,
+      "missing_must_haves": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "must_have_results": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "result": "Does Not Meet",
+          "similarity_score": 0.28,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "result": "Does Not Meet",
+          "similarity_score": 0.89,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "nice_to_have_results": [
+        {
+          "category": "skills",
+          "requirement": "FastAPI",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Docker",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Hugging Face",
+          "result": "Does Not Meet",
+          "similarity_score": 0.218,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Vector Databases",
+          "result": "Does Not Meet",
+          "similarity_score": 0.427,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Prompt Engineering",
+          "result": "Does Not Meet",
+          "similarity_score": 0.352,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "Experience with LLM integration",
+          "result": "Does Not Meet",
+          "similarity_score": 0.064,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "certifications",
+          "requirement": "Machine Learning or AI certification",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "all_results": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "result": "Does Not Meet",
+          "similarity_score": 0.28,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "result": "Does Not Meet",
+          "similarity_score": 0.89,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "FastAPI",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Docker",
+          "result": "Does Not Meet",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Hugging Face",
+          "result": "Does Not Meet",
+          "similarity_score": 0.218,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Vector Databases",
+          "result": "Does Not Meet",
+          "similarity_score": 0.427,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Prompt Engineering",
+          "result": "Does Not Meet",
+          "similarity_score": 0.352,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "Experience with LLM integration",
+          "result": "Does Not Meet",
+          "similarity_score": 0.064,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "certifications",
+          "requirement": "Machine Learning or AI certification",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        }
+      ]
+    }
+  },
+  {
+    "id": "54da8e46",
+    "candidate_name": "Uploaded Candidate",
+    "sender_email": "manual@upload.local",
+    "email_subject": "Manual Upload",
+    "email_date": "",
+    "message_id": "",
+    "cv_filename": "Khaled_Altamimi_CV_MedicalRep.docx",
+    "cv_path": "data/cvs\\Khaled_Altamimi_CV_MedicalRep.docx",
+    "hr_status": "New",
+    "hr_notes": "",
+    "candidate_qualifications": {
+      "skills": [],
+      "experience": [
+        "5 years",
+        "1 Year"
+      ],
+      "education": [
+        "Bachelor's Degree in Computer Science or related field"
+      ],
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "certifications": []
+    },
+    "evaluation": {
+      "is_qualified": false,
+      "score_percentage": 14.3,
+      "missing_must_haves": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "must_have_results": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "result": "Does Not Meet",
+          "similarity_score": 0.252,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "result": "Meets",
+          "similarity_score": 0.89,
+          "rule_matched": false,
+          "evidence": "Matched: Bachelor's Degree in Computer Science or related field"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: English"
+        }
+      ],
+      "nice_to_have_results": [
+        {
+          "category": "skills",
+          "requirement": "FastAPI",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Docker",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Hugging Face",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Vector Databases",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Prompt Engineering",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "Experience with LLM integration",
+          "result": "Does Not Meet",
+          "similarity_score": 0.053,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "certifications",
+          "requirement": "Machine Learning or AI certification",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "all_results": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "result": "Does Not Meet",
+          "similarity_score": 0.252,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "result": "Meets",
+          "similarity_score": 0.89,
+          "rule_matched": false,
+          "evidence": "Matched: Bachelor's Degree in Computer Science or related field"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: English"
+        },
+        {
+          "category": "skills",
+          "requirement": "FastAPI",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Docker",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Hugging Face",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Vector Databases",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "skills",
+          "requirement": "Prompt Engineering",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "experience",
+          "requirement": "Experience with LLM integration",
+          "result": "Does Not Meet",
+          "similarity_score": 0.053,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        },
+        {
+          "category": "certifications",
+          "requirement": "Machine Learning or AI certification",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1ab9422b",
+    "candidate_name": "Uploaded Candidate",
+    "sender_email": "manual@upload.local",
+    "email_subject": "Manual Upload",
+    "email_date": "",
+    "message_id": "",
+    "cv_filename": "Ahmad Al-Ali Resume.pdf",
+    "cv_path": "data/cvs\\Ahmad Al-Ali Resume.pdf",
+    "hr_status": "New",
+    "hr_notes": "",
+    "candidate_qualifications": {
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Git",
+        "Fastapi",
+        "Docker"
+      ],
+      "experience": [
+        "3 years of experience",
+        "5 years of experience"
+      ],
+      "education": [
+        "Bachelor's Degree in Computer Science or related field"
+      ],
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "certifications": []
+    },
+    "evaluation": {
+      "is_qualified": true,
+      "score_percentage": 92.9,
+      "missing_must_haves": [],
+      "must_have_results": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: Python"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: Machine Learning"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "result": "Meets",
+          "similarity_score": 0.703,
+          "rule_matched": false,
+          "evidence": "Matched: Machine Learning"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: Git"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "result": "Meets",
+          "similarity_score": 0.439,
+          "rule_matched": true,
+          "evidence": "Matched: Found in CV text"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "result": "Meets",
+          "similarity_score": 0.89,
+          "rule_matched": false,
+          "evidence": "Matched: Bachelor's Degree in Computer Science or related field"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: English"
+        }
+      ],
+      "nice_to_have_results": [
+        {
+          "category": "skills",
+          "requirement": "FastAPI",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: Fastapi"
+        },
+        {
+          "category": "skills",
+          "requirement": "Docker",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: Docker"
+        },
+        {
+          "category": "skills",
+          "requirement": "Hugging Face",
+          "result": "Meets",
+          "similarity_score": 0.218,
+          "rule_matched": true,
+          "evidence": "Matched: Found in CV text"
+        },
+        {
+          "category": "skills",
+          "requirement": "Vector Databases",
+          "result": "Meets",
+          "similarity_score": 0.427,
+          "rule_matched": true,
+          "evidence": "Matched: Found in CV text"
+        },
+        {
+          "category": "skills",
+          "requirement": "Prompt Engineering",
+          "result": "Meets",
+          "similarity_score": 0.29,
+          "rule_matched": true,
+          "evidence": "Matched: Found in CV text"
+        },
+        {
+          "category": "experience",
+          "requirement": "Experience with LLM integration",
+          "result": "Meets",
+          "similarity_score": 0.223,
+          "rule_matched": true,
+          "evidence": "Matched: Found in CV text"
+        },
+        {
+          "category": "certifications",
+          "requirement": "Machine Learning or AI certification",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        }
+      ],
+      "all_results": [
+        {
+          "category": "skills",
+          "requirement": "Python",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: Python"
+        },
+        {
+          "category": "skills",
+          "requirement": "Machine Learning",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: Machine Learning"
+        },
+        {
+          "category": "skills",
+          "requirement": "Artificial Intelligence",
+          "result": "Meets",
+          "similarity_score": 0.703,
+          "rule_matched": false,
+          "evidence": "Matched: Machine Learning"
+        },
+        {
+          "category": "skills",
+          "requirement": "Git",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: Git"
+        },
+        {
+          "category": "experience",
+          "requirement": "2 years of experience in Python or AI/ML solutions",
+          "result": "Meets",
+          "similarity_score": 0.439,
+          "rule_matched": true,
+          "evidence": "Matched: Found in CV text"
+        },
+        {
+          "category": "education",
+          "requirement": "Bachelor's degree in Computer Science, Artificial Intelligence, Data Science or related field",
+          "result": "Meets",
+          "similarity_score": 0.89,
+          "rule_matched": false,
+          "evidence": "Matched: Bachelor's Degree in Computer Science or related field"
+        },
+        {
+          "category": "languages",
+          "requirement": "English",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: English"
+        },
+        {
+          "category": "skills",
+          "requirement": "FastAPI",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: Fastapi"
+        },
+        {
+          "category": "skills",
+          "requirement": "Docker",
+          "result": "Meets",
+          "similarity_score": 1.0,
+          "rule_matched": true,
+          "evidence": "Matched: Docker"
+        },
+        {
+          "category": "skills",
+          "requirement": "Hugging Face",
+          "result": "Meets",
+          "similarity_score": 0.218,
+          "rule_matched": true,
+          "evidence": "Matched: Found in CV text"
+        },
+        {
+          "category": "skills",
+          "requirement": "Vector Databases",
+          "result": "Meets",
+          "similarity_score": 0.427,
+          "rule_matched": true,
+          "evidence": "Matched: Found in CV text"
+        },
+        {
+          "category": "skills",
+          "requirement": "Prompt Engineering",
+          "result": "Meets",
+          "similarity_score": 0.29,
+          "rule_matched": true,
+          "evidence": "Matched: Found in CV text"
+        },
+        {
+          "category": "experience",
+          "requirement": "Experience with LLM integration",
+          "result": "Meets",
+          "similarity_score": 0.223,
+          "rule_matched": true,
+          "evidence": "Matched: Found in CV text"
+        },
+        {
+          "category": "certifications",
+          "requirement": "Machine Learning or AI certification",
+          "result": "Does Not Meet",
+          "similarity_score": 0.0,
+          "rule_matched": false,
+          "evidence": "No evidence found in CV"
+        }
+      ]
+    }
+  }
+]

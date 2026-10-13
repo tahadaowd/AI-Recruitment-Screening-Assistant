@@ -9,3 +9,8 @@ scikit-learn
 ollama
 torch
 requests
+fastapi
+uvicorn
+streamlit
+pandas
+

@@ -19,8 +19,9 @@ VALID_STATUSES = ["New", "Shortlist", "Review Later", "Reject"]
 def _ensure_data_dir():
     os.makedirs(DATA_DIR, exist_ok=True)
 
-# -------------------------------------------------------------
+
 def get_job_config() -> Dict[str, Any]:
+
     """
     Returns the active job requirements.
     Loads from job_config.json if exists, otherwise initializes from job_description.py.
@@ -50,7 +51,7 @@ def save_job_config(config_data: Dict[str, Any]) -> bool:
         print(f"[Error] Failed to save job configuration: {e}")
         return False
 
-# -------------------------------------------------------------
+
 def load_all_candidates() -> List[Dict[str, Any]]:
     """
     Loads all candidates from the JSON database.
@@ -73,18 +74,21 @@ def save_candidate_record(candidate_data: Dict[str, Any]) -> Dict[str, Any]:
     _ensure_data_dir()
     candidates = load_all_candidates()
 
-    # Assign unique candidate ID if not provided
+
+
     cand_id = candidate_data.get("id") or str(uuid.uuid4())[:8]
     candidate_data["id"] = cand_id
 
-    # Default HR status is "New"
+
+
     if "hr_status" not in candidate_data or candidate_data["hr_status"] not in VALID_STATUSES:
         candidate_data["hr_status"] = "New"
 
     if "hr_notes" not in candidate_data:
         candidate_data["hr_notes"] = ""
 
-    # Check for duplicate by message_id or cv_filename
+
+
     msg_id = candidate_data.get("message_id")
     cv_filename = candidate_data.get("cv_filename")
 
@@ -92,8 +96,7 @@ def save_candidate_record(candidate_data: Dict[str, Any]) -> Dict[str, Any]:
     for idx, c in enumerate(candidates):
         if (msg_id and c.get("message_id") == msg_id) or (cv_filename and c.get("cv_filename") == cv_filename):
             existing_idx = idx
-            candidate_data["id"] = c.get("id", cand_id) # keep existing id
-            # Preserve existing HR decisions if not explicitly overwritten
+            candidate_data["id"] = c.get("id", cand_id)
             if "hr_status" in c and candidate_data.get("hr_status") == "New":
                 candidate_data["hr_status"] = c["hr_status"]
             if "hr_notes" in c and not candidate_data.get("hr_notes"):
@@ -144,7 +147,8 @@ def update_candidate_status(candidate_id: str, new_status: str, notes: Optional[
         return True
     return False
 
-# -------------------------------------------------------------
+
+
 def migrate_existing_results(results_path: str = "results.json") -> int:
     """
     Migrates already-screened CVs from results.json into candidates.json
@@ -193,3 +197,4 @@ def migrate_existing_results(results_path: str = "results.json") -> int:
         migrated_count += 1
 
     return migrated_count
+

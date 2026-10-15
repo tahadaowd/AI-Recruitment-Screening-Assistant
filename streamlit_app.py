@@ -8,7 +8,8 @@ import requests
 import pandas as pd
 import streamlit as st
 
-# Page Configuration
+
+
 st.set_page_config(
     page_title="AI Recruitment Assistant",
     page_icon="💼",
@@ -18,7 +19,8 @@ st.set_page_config(
 
 API_BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
 
-# Custom CSS for modern styling
+
+
 st.markdown("""
 <style>
     .main-title { font-size: 2.2rem; font-weight: 700; color: #1E3A8A; margin-bottom: 0.2rem; }
@@ -41,7 +43,8 @@ def check_api_health():
         return False
 
 
-# Sidebar
+
+
 with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/3850/3850285.png", width=65)
     st.title("Recruitment AI")
@@ -63,9 +66,8 @@ with st.sidebar:
     st.info("💡 Developed for automated HR CV screening using LLM & Semantic Similarity.")
 
 
-# ==============================================================================
-# PAGE 1: CANDIDATES & RANKING (لوحة المرشحين والترتيب)
-# ==============================================================================
+
+
 if menu == "📊 Candidates & Ranking":
     st.markdown('<div class="main-title">Candidates Screening & Ranking Dashboard</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-title">Review qualified candidates, inspect AI evidence, and make hiring decisions.</div>', unsafe_allow_html=True)
@@ -74,7 +76,8 @@ if menu == "📊 Candidates & Ranking":
         st.error("Cannot connect to FastAPI backend. Please run `uvicorn src.api:app --reload --port 8000`.")
         st.stop()
 
-    # Load statistics
+
+
     try:
         stats_resp = requests.get(f"{API_BASE_URL}/api/stats").json()
     except Exception as e:
@@ -92,7 +95,9 @@ if menu == "📊 Candidates & Ranking":
 
     st.markdown("---")
 
-    # Filters Row
+
+
+
     f_col1, f_col2, f_col3 = st.columns([2, 2, 1])
     with f_col1:
         filter_type = st.selectbox(
@@ -113,7 +118,9 @@ if menu == "📊 Candidates & Ranking":
     with f_col3:
         top_n = st.number_input("Shortlist Top N:", min_value=1, max_value=50, value=20)
 
-    # Fetch candidates
+
+
+
     params = {"filter_type": filter_type, "top_n": top_n}
     if status_filter != "All":
         params["status"] = status_filter
@@ -137,7 +144,7 @@ if menu == "📊 Candidates & Ranking":
             missing_must = eval_info.get("missing_must_haves", [])
 
             qual_badge = "✅ Qualified" if is_qualified else f"⚠️ Missing {len(missing_must)} Must-Have(s)"
-            
+
             with st.expander(f"👤 {name} — Score: {score}% | {qual_badge} | Status: [{hr_status}]"):
                 c_top1, c_top2 = st.columns([3, 1])
                 with c_top1:
@@ -146,7 +153,7 @@ if menu == "📊 Candidates & Ranking":
                         st.error(f"❌ **Missing Must-Have Requirements:**")
                         for m in missing_must:
                             st.write(f"- **{m.get('category').title()}**: {m.get('requirement')}")
-                
+
                 with c_top2:
                     st.metric("Overall Match Score", f"{score}%")
 
@@ -174,7 +181,8 @@ if menu == "📊 Candidates & Ranking":
                     ])
                     st.dataframe(eval_df, use_container_width=True)
 
-                # HR Decision Actions
+
+
                 st.markdown("#### HR Review & Decision")
                 dec_col1, dec_col2, dec_col3, dec_col4 = st.columns([1.5, 1, 1, 1])
                 with dec_col1:
@@ -199,9 +207,8 @@ if menu == "📊 Candidates & Ranking":
                         st.experimental_rerun()
 
 
-# ==============================================================================
-# PAGE 2: JOB REQUIREMENTS & SETUP (إعداد شروط الوظيفة)
-# ==============================================================================
+
+
 elif menu == "⚙️ Job Requirements":
     st.markdown('<div class="main-title">Job Requirements Management</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-title">Configure essential (Must-Have) and optional (Nice-to-Have) criteria.</div>', unsafe_allow_html=True)
@@ -272,9 +279,8 @@ elif menu == "⚙️ Job Requirements":
             st.error("Error saving job configuration.")
 
 
-# ==============================================================================
-# PAGE 3: SCREEN & UPLOAD CVS (تشغيل الفرز ورفع السير الذاتية)
-# ==============================================================================
+
+
 elif menu == "📥 Screen & Upload CVs":
     st.markdown('<div class="main-title">Screening Operations</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-title">Automate Gmail CV collection or manually upload and screen new CVs.</div>', unsafe_allow_html=True)
@@ -322,3 +328,5 @@ elif menu == "📥 Screen & Upload CVs":
                     st.json(eval_res)
                 else:
                     st.error(f"Error screening CV: {res.text}")
+                    
+                    

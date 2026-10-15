@@ -1,8 +1,8 @@
 """
 Module: src/screener.py
 Integrates the complete screening pipeline into reusable functions:
-- Processing a single CV file (from local upload or email)
-- Batch processing CVs from Gmail
+\- Processing a single CV file (from local upload or email)
+\- Batch processing CVs from Gmail
 """
 
 import os
@@ -42,28 +42,32 @@ def process_cv_file(
     message_id: str = ""
 ) -> Optional[Dict[str, Any]]:
     """
-    Extracts text from a CV file, analyzes it with AI, evaluates it against 
+    Extracts text from a CV file, analyzes it with AI, evaluates it against
     active job requirements (Must-Have & Nice-to-Have), and saves the candidate record.
     """
     if not os.path.exists(file_path):
         print(f"[Error] File not found: {file_path}")
         return None
 
-    # 1. Extract text from CV
+
+
     cv_text = extract_text(file_path)
     if not cv_text or len(cv_text.strip()) < 20:
         print(f"[Warning] CV text is unreadable or empty: {file_path}")
         return None
 
-    # 2. Extract structured qualifications using Ollama AI
+
+
     candidate_qualifications = extract_information(cv_text, target_type="CV")
 
-    # 3. Load active job requirements (Must-Have vs Nice-to-Have)
+
+
     job_cfg = get_job_config()
     must_have = job_cfg.get("must_have", {})
     nice_to_have = job_cfg.get("nice_to_have", {})
 
-    # 4. Detailed evaluation and scoring
+
+
     evaluation = evaluate_candidate_detailed(
         candidate_info=candidate_qualifications,
         must_have_reqs=must_have,
@@ -71,7 +75,8 @@ def process_cv_file(
         cv_text=cv_text
     )
 
-    # 5. Build candidate record
+
+
     cand_id = message_id[:8] if message_id else str(uuid.uuid4())[:8]
     record = {
         "id": cand_id,
@@ -88,7 +93,8 @@ def process_cv_file(
         "evaluation": evaluation
     }
 
-    # 6. Save in storage
+
+
     saved_record = save_candidate_record(record)
     return saved_record
 
@@ -152,7 +158,7 @@ def run_gmail_screening_pipeline(max_emails: int = 15) -> Dict[str, Any]:
                 continue
 
             profile = package_candidate_profile(email_data, saved_path, "")
-            
+
             cand_record = process_cv_file(
                 file_path=saved_path,
                 candidate_name=profile["candidate_name"],
@@ -174,3 +180,5 @@ def run_gmail_screening_pipeline(max_emails: int = 15) -> Dict[str, Any]:
         "skipped": skipped_count,
         "new_cvs": new_cvs_count
     }
+    
+    

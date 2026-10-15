@@ -31,7 +31,8 @@ app = FastAPI(
     version="2.0.0"
 )
 
-# Enable CORS for Streamlit and Frontend communication
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -40,9 +41,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# -------------------------------------------------------------
-# Pydantic Schemas for Request Validation
-# -------------------------------------------------------------
+
+
 class RequirementsCategory(BaseModel):
     skills: List[str] = Field(default_factory=list)
     experience: List[str] = Field(default_factory=list)
@@ -62,12 +62,12 @@ class StatusUpdateRequest(BaseModel):
     status: str
     notes: Optional[str] = ""
 
-# -------------------------------------------------------------
-# Endpoints
-# -------------------------------------------------------------
+
+
 @app.on_event("startup")
 def startup_event():
-    # Automatically migrate existing results from Week 1 if available
+    
+    
     migrate_existing_results("results.json")
 
 @app.get("/")
@@ -78,7 +78,8 @@ def root():
         "docs_url": "/docs"
     }
 
-# 1. Job Description & Requirements Endpoints
+
+
 @app.get("/api/job", response_model=Dict[str, Any])
 def get_current_job():
     """Retrieve the current job configuration and requirements."""
@@ -98,11 +99,12 @@ def extract_job_requirements(payload: ExtractJobRequest):
     text = payload.job_description_text.strip()
     if not text:
         raise HTTPException(status_code=400, detail="Job description text cannot be empty.")
-    
+
     extracted = extract_information(text, target_type="Job Description")
     return {"extracted_requirements": extracted}
 
-# 2. CV Screening Endpoints
+
+
 @app.post("/api/screen/gmail")
 def trigger_gmail_screening(max_emails: int = Query(15, ge=1, le=50)):
     """Trigger background check for application emails and screen new CVs."""
@@ -121,7 +123,7 @@ async def upload_and_screen_cv(
     ext = os.path.splitext(file.filename)[1].lower()
     if ext not in SUPPORTED_EXTENSIONS:
         raise HTTPException(
-            status_code=400, 
+            status_code=400,
             detail=f"Unsupported file format. Please upload {', '.join(SUPPORTED_EXTENSIONS)}"
         )
 
@@ -143,7 +145,8 @@ async def upload_and_screen_cv(
 
     return {"message": "CV screened successfully", "candidate": record}
 
-# 3. Candidates, Ranking & Shortlist Endpoints
+
+
 @app.get("/api/candidates")
 def list_candidates(
     filter_type: str = Query("all", regex="^(all|qualified|non_qualified|shortlist)$"),
@@ -191,13 +194,13 @@ def update_status(candidate_id: str, payload: StatusUpdateRequest):
     """Update HR screening decision: Shortlist, Review Later, or Reject."""
     if payload.status not in VALID_STATUSES:
         raise HTTPException(
-            status_code=400, 
+            status_code=400,
             detail=f"Invalid status '{payload.status}'. Allowed: {VALID_STATUSES}"
         )
 
     updated = update_candidate_status(
-        candidate_id=candidate_id, 
-        new_status=payload.status, 
+        candidate_id=candidate_id,
+        new_status=payload.status,
         notes=payload.notes
     )
 
@@ -210,7 +213,8 @@ def update_status(candidate_id: str, payload: StatusUpdateRequest):
         "new_status": payload.status
     }
 
-# 4. System Statistics
+
+
 @app.get("/api/stats")
 def get_dashboard_stats():
     """Returns overview counts for the HR dashboard."""
@@ -229,3 +233,4 @@ def get_dashboard_stats():
         "non_qualified": ranked_data["total_non_qualified"],
         "statuses": status_counts
     }
+    

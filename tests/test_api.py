@@ -42,7 +42,7 @@ def test_list_candidates_filter():
 def test_invalid_filter_param():
     """Verify API handles invalid filter parameter with validation error (422)."""
     response = client.get("/api/candidates?filter_type=invalid_filter")
-    assert response.status_code == 422  # Pydantic validation error
+    assert response.status_code == 422
 
 def test_invalid_status_update():
     """Verify updating a candidate with an invalid status fails with 400."""
@@ -56,3 +56,5 @@ def test_candidate_not_found():
     """Verify 404 is returned when requesting a non-existent candidate."""
     response = client.get("/api/candidates/definitely_not_a_real_candidate_id_99999")
     assert response.status_code == 404
+    
+    

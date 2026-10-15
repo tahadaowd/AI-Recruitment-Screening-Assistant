@@ -17,17 +17,17 @@ def evaluate_candidate_detailed(
     Evaluates candidate against separate Must-Have and Nice-to-Have requirement categories.
     """
     categories = ["skills", "experience", "education", "languages", "certifications"]
-    
+
     must_have_results = []
     missing_must_haves = []
-    
-    # 1. Evaluate Must-Have Requirements
+
     for cat in categories:
         req_list = must_have_reqs.get(cat, [])
         for req in req_list:
             eval_res = evaluate_requirement(cat, req, candidate_info, cv_text)
             must_have_results.append(eval_res)
-            # If the candidate doesn't meet the must-have condition
+            
+            
             if eval_res["result"] == "Does Not Meet":
                 missing_must_haves.append({
                     "category": cat,
@@ -36,17 +36,19 @@ def evaluate_candidate_detailed(
                 })
 
     is_qualified = (len(missing_must_haves) == 0)
+    
+    
 
-    # 2. Evaluate Nice-to-Have Requirements
     nice_to_have_results = []
     for cat in categories:
         req_list = nice_to_have_reqs.get(cat, [])
         for req in req_list:
             eval_res = evaluate_requirement(cat, req, candidate_info, cv_text)
             nice_to_have_results.append(eval_res)
+            
+            
+            
 
-    # 3. Calculate Overall Scoring
-    # Weighting: Meets = 1.0 point, Partially Meets = 0.5 points, Does Not Meet = 0
     total_evals = must_have_results + nice_to_have_results
     total_points = 0.0
     max_possible_points = len(total_evals) * 1.0 if total_evals else 1.0
@@ -66,34 +68,48 @@ def evaluate_candidate_detailed(
         "must_have_results": must_have_results,
         "nice_to_have_results": nice_to_have_results,
         "all_results": total_evals
+        
+        
     }
+
+
+
+
+
+
 
 
 def rank_and_filter_candidates(
     candidates_list: List[Dict[str, Any]],
     top_n: int = 20
 ) -> Dict[str, Any]:
-    """
-    Separates candidates into Qualified and Non-Qualified (missing Must-Haves),
-    ranks the qualified candidates by score descending, and returns top N shortlist.
-    """ 
+    
+    
     qualified = []
     non_qualified = []
 
     for candidate in candidates_list:
-        # Check qualification flag
+        
+        
         if candidate.get("evaluation", {}).get("is_qualified", False):
             qualified.append(candidate)
         else:
             non_qualified.append(candidate)
+            
+            
+            
+            
+            
+            
+            
 
-    # Rank qualified candidates by score percentage descending
     qualified.sort(
         key=lambda c: c.get("evaluation", {}).get("score_percentage", 0.0),
         reverse=True
     )
 
-    # Rank non-qualified as well (for HR review)
+
+
     non_qualified.sort(
         key=lambda c: c.get("evaluation", {}).get("score_percentage", 0.0),
         reverse=True
@@ -109,3 +125,5 @@ def rank_and_filter_candidates(
         "total_qualified": len(qualified),
         "total_non_qualified": len(non_qualified)
     }
+    
+    
